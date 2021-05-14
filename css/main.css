@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://prodigits.co.uk/thumbs/wallpapers/p2ls/misc/43/fa973cb712513317.jpg');
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 16px;
+}
+header, footer{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5mXnbAutac6fBMyfMOoMxLYVQmgagoT4SA&usqp=CAU');
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 0;
+    border-bottom: unset;
+    border-top: solid rgb(152, 235, 235)  4px ;
+}
+.container-logo-footer{
+    display: flex;
+    float: right;
+}
+.footer-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 85px;
+}
+.logo:hover{
+    opacity: 0.5;
+}
+/* вирівнення всіх дочерніх підкласів в одну лінію та розташування по центру */
+.nav{
+    display:flex;
+    float: left;
+    align-items: center;
+    padding: 15px;
+}
+/* вирівнення всіх дочерніх підкласів в одну лінію */
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu .link{
+    color:black;
+    font-size: 17px;
+    font-family: fantasy;
+}
+/* створення з списку - повноцінні блоки для меню */
+.menu ul, .menu li{ 
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+} 
+.mail{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    transition: all 0.5s ease;
+}
+.mail:hover{
+    color: rgb(255, 251, 251);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+.menu-aside{
+    align-items: center;
+    margin: 0 auto;
+}
+.menu-aside li {
+    display: block;
+    margin-bottom: 50%;
+}
+main{
+    width: 77%;
+    margin-left: 0%;
+    margin-right: 2%;
+    padding: 25px 2.5%;
+    float: right;
+}
+aside{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5mXnbAutac6fBMyfMOoMxLYVQmgagoT4SA&usqp=CAU');
+    width: 11.3%;
+    height: 100%;
+    padding: 20px 2.3%;
+    float: right;
+    margin-top: -50px;
+}
+.link{
+    color: rgb(244, 243, 250);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.link:hover{
+    color: rgb(248, 244, 2);
+    text-decoration: underline;
+    text-decoration-color: rgb(51, 48, 45);
+}
+.blok{
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    transition: all 0.5s ease;
+}
+.container:hover{
+    border-radius: 25px;
+}
+#container0{
+    width: 100%;
+}
+.clothes{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.clothes ul, .clothes li{  
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.clothes li{
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+.photo-clothes{
+    width: 90%;
+    height: 90%;
+}
+#container0 ul p { /* абзац що описує товар */
+    color: rgb(255, 255, 255);
+}
+.price-clothes{
+    color: rgb(250, 205, 3);
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 15px;
+}
+.description_clothes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+}
+a.bot5 {
+    display: block;
+    width:80px;
+    margin: 20px auto;
+    padding: 7px 20px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    background-color: #ccc;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #202020 #1a1a1a #111;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+a.bot5:hover {
+    background-color: #aaaaaa;
+    background-image: -webkit-linear-gradient(top, #ccc, #555);
+    background-image: -moz-linear-gradient(top, #ccc, #555);
+    background-image: -o-linear-gradient(top, #ccc, #555);
+    background-image: linear-gradient(to bottom, #ccc, #555);
+}
+a.bot5:active, .bot5.active {
+    background-color: #b42f32;
+    border-color: #1c1c1c #202020 #222;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+
+.popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    background: #ffffff;
+    width: 550px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.popup h3{
+    margin-top: -5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.container_form label, .container_form input{
+    display: flex;
+    align-items: center;
+}
+.input_form{
+    display: flex;
+    margin-left: auto;
+}
+.buttons_form{
+    display: flex;
+}
+.popup button{
+    width:120px;
+    margin: 20px auto;
+    padding: 7px 20px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    background-color: #ccc;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #202020 #1a1a1a #111;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.popup button:hover{
+    background-color: #aaaaaa;
+    background-image: -webkit-linear-gradient(top, #ccc, #555);
+    background-image: -moz-linear-gradient(top, #ccc, #555);
+    background-image: -o-linear-gradient(top, #ccc, #555);
+    background-image: linear-gradient(to bottom, #ccc, #555);
+}
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup form input {
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #000000;
+}
+
+.popup form input[type="submit"] {
+    background: #000000;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
